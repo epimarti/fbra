@@ -1,2 +1,3 @@
-# fbra
-FizzBuzz REST API
+FBRA
+
+The Fizz Buzz REST API
