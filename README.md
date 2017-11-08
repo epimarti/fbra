@@ -25,14 +25,14 @@ This is a simple project delivering a configurable Fizz Buzz list. The only purp
 
 * Docker
   * `docker build .`
-  * `docker run fbra` (_you might have to map the port 80 to another one_)
+  * `docker run fbra` _(you might have to map the port 80 to another one)_
 
 #### Usage
 This API serve only one resource which requires 5 parameters. It is reqested as follow:
 
 `GET http://localhost/<int1>/<int2>/<limit>/<string1>/<string2>`
 
-It will respond with an array of number from 1 to _limit_ where all multiples of _int1_ are replaced with _string1_, all multiples of _int2_ by _string2_ and all multiples of both _int1_ and _int2_ will be replaced by '_string1_ _string2_'
+It will respond with an array of number from 1 to _limit_ where all multiples of _int1_ are replaced with _string1_, all multiples of _int2_ by _string2_ and all multiples of both _int1_ and _int2_ are replaced by '_string1 string2_'
 
 #### License
 This software is under the [Beerware License](LICENSE)
