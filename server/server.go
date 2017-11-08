@@ -3,7 +3,6 @@ package server
 import (
   "errors"
   "log"
-  "fmt"
   "encoding/json"
   "net/http"
   "strconv"
@@ -24,7 +23,6 @@ var MissingParameterError = errors.New("A parameter is")
 
 func getParams(vars map[string]string) (Params, error) {
   var p Params
-  fmt.Println(vars)
 
   int1, err := strconv.Atoi(vars["int1"])
   if err != nil { return p, err}
