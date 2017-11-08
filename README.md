@@ -15,6 +15,13 @@ This is a simple project delivering a configurable Fizz Buzz list. The only purp
 * `go build`
 
 #### Usage
+* Development
+ * run `go build`
+ * run the application
+
+* Deploy
+ * `docker build .`
+ * `docker run fbra`
 
 #### License
 This software is under the [Beerware License](github.com/epimarti/fbra/blob/master/LICENSE)

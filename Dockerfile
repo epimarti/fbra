@@ -1,3 +1,3 @@
 FROM golang:onbuild
 
-EXPOSE 4242
+EXPOSE 80
