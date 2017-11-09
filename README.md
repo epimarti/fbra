@@ -12,14 +12,14 @@ This is a simple project delivering a configurable Fizz Buzz list. The only purp
 * [License](#license)
 
 #### Download
-* Clone this repository in `$GOPATH/src/github.com/epimarti/fbra`
-* Install mux (by running `go get github.com/gorilla/mux`)
+* `go get github.com/epimarti/fbra`
+* `go get github.com/gorilla/mux`
 * `cd` into project directory
 * `go build`
 
 #### Deploy
 
-* Development
+* Local
   * run `go build`
   * run the application
 
